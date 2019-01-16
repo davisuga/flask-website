@@ -1,0 +1,199 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:700,400);
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) { ... }
+
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) { ... }
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) { ... }
+
+// Large devices (desktops, less than 1200px)
+@media (max-width: 1199.98px) { ... }
+
+ * {
+  box-sizing: border-box;
+}
+ body {
+    position: relative;
+
+    justify-content: center;
+    align-items: center;
+    background: #FFE8A3;
+    font-family: 'Montserrat', sans-serif;
+  }
+  html, body {
+  height: 100%;
+
+}
+body p{
+
+}
+#subs {
+  border: 5px solid transparent;
+  background: #AED6D1;
+  color: #55706D;
+  border-radius: 40px;
+  padding: 15px 30px;
+  overflow: hidden;
+  width: 200px;
+  transition: all 1.2s, border 0.3s 0.5s, box-shadow 0.3s 1.0s;
+  white-space: nowrap;
+  text-indent: 23px;
+  font-weight: bold;
+  font-size: inherit;
+}
+#subs span {
+  display: inline-block;
+  -webkit-transform: translateX(300px);
+          transform: translateX(300px);
+  font-weight: normal;
+  opacity: 0;
+  transition: opacity 0.1s 0.5s, -webkit-transform 0.4s 0.5s;
+  transition: opacity 0.1s 0.5s, transform 0.4s 0.5s;
+  transition: opacity 0.1s 0.5s, transform 0.4s 0.5s, -webkit-transform 0.4s 0.5s;
+}
+#subs:hover {
+  text-indent: 0;
+  background: #55706D;
+  color: #FFE8A3;
+  width: 250px;
+  border: 10px solid #8DCCC4;
+  box-shadow: 3px 3px 2px rgba(0, 0, 0, 0.15);
+}
+#subs:hover span {
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
+  opacity: 1;
+}
+  #section1 {
+  	padding-top:100px;
+    height:80%;
+    background-size: cover;
+    color: #fff;
+    background-image: url("../img/bgmain.jpg");
+}
+
+  #section2 {
+  	padding-top:50px;
+	height:80%;
+	background-size: cover;
+	color: #fff;
+	background-image: url("../img/bgred.jpg");
+}
+  #section3 {
+  	padding-top:50px;
+    height:80%;
+    background-size: cover;
+    color: #fff;
+    background-color: #ff9800;
+}
+  #section4 {
+  	padding-top:50px;
+  	height:80%;
+  	background-size: cover;
+  	color: #fff;
+  	background-color: #00bcd4;
+  }
+  #section5 {
+  	padding-top:50px;
+  	height:80%;
+  	background-size: cover;
+  	color: #fff;
+  	background-color: #009688;
+  }
+
+  #section1:hover{
+  	height:100%;
+ 	-webkit-transition: height .25s ease;
+ 	   -moz-transition: height .25s ease;
+ 	    -ms-transition: height .25s ease;
+ 	     -o-transition: height .25s ease;
+ 	        transition: height .25s ease;
+  }
+  #section2:hover{
+  	height:100%;
+ 	-webkit-transition: height .25s ease;
+ 	   -moz-transition: height .25s ease;
+ 	    -ms-transition: height .25s ease;
+ 	     -o-transition: height .25s ease;
+ 	        transition: height .25s ease;
+  }
+  #section3:hover{
+  	height:100%;
+ 	-webkit-transition: height .25s ease;
+ 	   -moz-transition: height .25s ease;
+ 	    -ms-transition: height .25s ease;
+ 	     -o-transition: height .25s ease;
+ 	        transition: height .25s ease;
+  }
+  #section4:hover{
+  	height:100%;
+ 	-webkit-transition: height .25s ease;
+ 	   -moz-transition: height .25s ease;
+ 	    -ms-transition: height .25s ease;
+ 	     -o-transition: height .25s ease;
+ 	        transition: height .25s ease;
+  }
+  #section5:hover{
+  	height:100%;
+ 	-webkit-transition: height .25s ease;
+ 	   -moz-transition: height .25s ease;
+ 	    -ms-transition: height .25s ease;
+ 	     -o-transition: height .25s ease;
+ 	        transition: height .25s ease;
+  }
+
+ .container-fluid{
+	background-color: black;
+ }
+ /* Style the navbar */
+.navbar {
+  overflow: hidden;
+     position: fixed;
+    width: 100%;
+    background-blend-mode: soft-light;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.center{
+	text-align: center;
+}
+/* Header Parallax Element Style*/
+.paral {
+min-height: 600px;
+background-attachment: fixed;
+background-size: cover;
+background-position: 50% 50%;
+height: 100%;
+}
+.paral p {
+font-size:4vw;
+color:#f5f5f5;
+text-align: center;
+line-height: 60px;
+}
+
+/* Heading for Parallax Section */
+.paral h1 {
+color: rgba(255, 255, 255, 0.8);
+font-size: 11vw;
+text-align: center;
+padding-top: 60px;
+line-height: 100px;
+}
+/* Image for Parallax Section */
+.paralsec {
+background-image:url("../img/bgmain.jpg");
+ }
+
+.paralsec1 {
+background-image: url("../img/bgyellow2.jpeg");}
+
+.paralsec2 {
+background-image:  url("../img/bgred.jpg");
+}
+.jumbotron{margin-bottom: 0;}
+/* Add more images for more sections */
+.navbar-brand{
+	    color: white;
+}
